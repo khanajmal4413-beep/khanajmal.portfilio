@@ -7,9 +7,9 @@ Personal portfolio website of **Muhammad Ajmal**, Full-Stack Software Developer 
 ## What's inside
 
 - `index.html` — the whole website (HTML + CSS + JavaScript in one file)
-- `assets/profile.jpg` — profile photo
-- `assets/og.jpg` — preview image shown when the link is shared
-- `assets/Muhammad_Ajmal_CV.pdf` — downloadable CV
+- `profile.jpg` — profile photo
+- `og.jpg` — preview image shown when the link is shared
+- `Muhammad_Ajmal_CV.pdf` — downloadable CV
 
 ## Tech
 
