@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khanajmal4413-beep.github.io/khanajmal.portfilio/sitemap.xml
