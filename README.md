@@ -16,7 +16,7 @@ Plain HTML, CSS and JavaScript with no build step and no dependencies. It is hos
 | `config.js` | **All your personal information. Edit this file to update the site.** |
 | `styles.css` | Design system, light/dark themes, layout, animations |
 | `app.js` | Builds every section from `config.js` + all interactions |
-| `profile.webp` / `profile.jpg` | Profile photo (WebP + JPG fallback) |
+| `profile-gray.webp` / `profile-gray.jpg` (+ `profile-navy.*` alternative) | Profile photo (WebP + JPG fallback) |
 | `Muhammad_Ajmal_CV.pdf` | Downloadable resume |
 | `og-image.jpg` | Preview image shown when the link is shared (LinkedIn, WhatsApp…) |
 | `favicon.svg`, `apple-touch-icon.png` | Browser / phone icons |
@@ -34,7 +34,7 @@ Open **`config.js`** on GitHub → click ✏️ → edit → **Commit changes**.
 - **Certificate:** add to `certifications` (`name`, `issuer`, `date`, `image`, `file`, `verifyUrl`). The section and its menu link appear automatically.
 - **Testimonials:** add only genuine ones to `testimonials`. The section stays hidden while the list is empty.
 - **New CV:** upload the PDF with the same name `Muhammad_Ajmal_CV.pdf` (or change `resume` in `config.js`).
-- **New photo:** replace `profile.jpg` and `profile.webp` (same names, portrait 4:5).
+- **New photo:** upload the new files and update `photo` / `photoFallback` in `config.js`. Use a new file name so browsers don't keep showing the old cached photo.
 
 Lines marked `TODO` in `config.js` are things only you can fill in.
 

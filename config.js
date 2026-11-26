@@ -29,9 +29,10 @@ window.PORTFOLIO = {
     ],
     location: "Islamabad, Pakistan",
     hometown: "Matta, Swat",
-    photo: "profile.webp",
-    photoFallback: "profile.jpg",
-    photoAlt: "Portrait of Muhammad Ajmal standing beside a turquoise mountain lake",
+    photo: "profile-gray.webp",
+    photoFallback: "profile-gray.jpg",
+    // To use the navy-suit photo instead: "profile-navy.webp" and "profile-navy.jpg"
+    photoAlt: "Professional portrait of Muhammad Ajmal in a suit and tie",
     email: "khanajmal4413@gmail.com",
     phone: "+92 348 2481071",
     whatsapp: "923482481071",         // digits only, with country code
